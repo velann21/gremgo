@@ -73,7 +73,7 @@ func (ws *Ws) connect() (err error) {
 	}
 	return
 }
-//Changed this method to Isconnected from isconnected to make it avail as public method
+//Changed this method to Isconnected from isconnected to make use of this method to check whether the connection is alive or not
 func (ws *Ws) IsConnected() bool {
 	return ws.connected
 }
